@@ -1,0 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="easyui-window" id="win_offerMoneyAudit" data-options="title:'报价审批',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 800px; height: 420px; padding: 10px;"></div>
+<div class="easyui-window" id="win_managerAuditOffer" data-options="title:'报价审批',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 800px; height: 450px; padding: 10px;"></div>
+<div class="easyui-window" id="win_itemAudit" data-options="title:'报价',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 600px; height: 300px; padding: 10px;"></div>
+<div class="easyui-window" id="win_viewMaterialDetail" data-options="title:'查看用料明细',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 845px; height: 420px; padding: 10px;"></div>

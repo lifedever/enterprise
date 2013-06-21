@@ -1,0 +1,4 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="easyui-window" id="win_auditbuyRequest" data-options="title:'请购单审批',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 450px; height: 300px; padding: 10px;"></div>
+<div class="easyui-window" id="win_viewBuyrequest" data-options="title:'查看请购单详细',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 780px; height: 480px; padding: 10px;"></div>
+<div class="easyui-window" id="win_accountName" data-options="title:'选择银行账户',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 800px; height: 350px; padding: 10px;"></div>

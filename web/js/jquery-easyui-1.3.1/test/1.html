@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>Editable DataGrid - jQuery EasyUI Demo</title>
+	<link rel="stylesheet" type="text/css" href="../themes/default/easyui.css">
+	<link rel="stylesheet" type="text/css" href="../themes/icon.css">
+	<link rel="stylesheet" type="text/css" href="demo.css">
+	<script type="text/javascript" src="../jquery-1.8.0.min.js"></script>
+	<script type="text/javascript" src="../jquery.easyui.min.js"></script>
+	<script>
+		$(function(){
+			$('#tt').datagrid({ 
+				title:'Load Data',  
+				iconCls:'icon-save',  
+				width:600,  
+				height:250,
+				idField:'id',//id字段
+				rownumbers:true,//行号
+				singleSelect:false,//是否单选
+				toolbar:toolbar,
+				url:'datagrid_data2.json',  
+				columns:[[  
+					{field:'itemid',title:'Item ID',width:80},  
+					{field:'productid',title:'Product ID',width:80},  
+					{field:'listprice',title:'List Price',width:80,align:'right'},
+					{field:'unitcost',title:'Unit Cost',width:80,align:'right'},  
+					{field:'attr1',title:'Attribute',width:100},  
+					{field:'status',title:'Status',width:60}  
+				]],  
+				pagination:true,  
+			});
+			var p = $('#tt').datagrid('getPager'); 
+			$(p).pagination({ 
+				pageSize: 10,//每页显示的记录条数，默认为10 
+				pageList: [5,10,15],//可以设置每页记录条数的列表 
+				beforePageText: '第',//页数文本框前显示的汉字 
+				afterPageText: '页    共 {pages} 页', 
+				displayMsg: '当前显示 {from} - {to} 条记录   共 {total} 条记录'
+			});  
+		});
+		var toolbar = [{  
+            text:'Add',  
+            iconCls:'icon-add',  
+            handler:function(){
+				alert('add');
+			}  
+        },'-',{  
+            text:'Cut',  
+            iconCls:'icon-cut',  
+            handler:function(){
+				alert('cut');
+			}  
+        },'-',{  
+            text:'Save',  
+            iconCls:'icon-save',  
+            handler:function(){
+				alert('save')
+			}  
+        }];		
+	</script>
+</head>
+<body>
+	<h2>Editable DataGrid</h2>
+	<div class="demo-info" style="margin-bottom:10px">
+		<div class="demo-tip icon-tip"></div>
+		<div>Click the row to start editing.</div>
+	</div>
+	<table id="tt" style="width:700px;height:auto"title="Editable DataGrid">
+		
+	</table>
+	
+</body>
+</html>

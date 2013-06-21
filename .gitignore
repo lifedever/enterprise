@@ -1,0 +1,6 @@
+/.settings
+
+/build
+/web/WEB-INF/classes
+/web/WEB-INF/log
+/web/upload

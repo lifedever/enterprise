@@ -1,0 +1,42 @@
+body {
+	font-family: helvetica, tahoma, verdana, sans-serif;
+	padding: 0;
+	font-size: 13px;
+	margin: 0;
+}
+
+h2 {
+	font-size: 18px;
+	color: #333;
+	font-weight: bold;
+	margin: 0;
+	margin-bottom: 15px;
+}
+
+.demo-info {
+	background: #FFFEE6;
+	color: #8F5700;
+	padding: 12px;
+}
+
+.demo-tip {
+	width: 24px;
+	height: 16px;
+	float: left;
+}
+
+.print_data {
+	height: 950px;
+}
+
+.print_data table {
+	border-collapse: collapse;
+	border: 1px solid #000;
+	border-collapse: collapse;
+}
+
+.print_data  td {
+	padding: 5px 5px;
+	border-collapse: collapse;
+	border: 1px solid #000;
+}

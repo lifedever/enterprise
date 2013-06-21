@@ -1,0 +1,6 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="easyui-window" id="win_newCommodity" data-options="title:'新增材料信息',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 800px; height: 370px; padding: 10px;"></div>
+<div class="easyui-window" id="win_editCommodity" data-options="title:'编辑材料信息',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 800px; height: 420px; padding: 10px;"></div>
+<div class="easyui-window" id="win_newOutStore" data-options="title:'材料出库',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 500px; height: 350px; padding: 10px;"></div>
+<div class="easyui-window" id="win_newInStore" data-options="title:'材料入库',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 500px; height: 300px; padding: 10px;"></div>
+<div class="easyui-window" id="win_newProvider" data-options="title:'添加供货商',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 700px; height: 370px; padding: 10px;"></div>

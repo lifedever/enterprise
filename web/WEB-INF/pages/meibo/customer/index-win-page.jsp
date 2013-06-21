@@ -1,0 +1,10 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<div class="easyui-window" id="win_newCustomer" data-options="title:'添加客戶信息',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 600px; height: 400px; padding: 10px;"></div>
+<div class="easyui-window" id="win_editCustomer" data-options="title:'编辑客戶信息',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 600px; height: 400px; padding: 10px;"></div>
+<div class="easyui-window" id="win_askOffer" data-options="title:'客户询价信息',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 800px; height: 490px; padding: 10px;"></div>
+<div class="easyui-window" id="win_addOfferItem" data-options="title:'具体询价条目',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 800px; height: 320px; padding: 10px;"></div>
+<div class="easyui-window" id="win_listOffer" data-options="title:'询价历史列表',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 700px; height: 425px; padding: 10px;"></div>
+<div class="easyui-window" id="win_showOfferItems" data-options="title:'询价条目列表',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 700px; height: 365px; padding: 10px;"></div>
+<div class="easyui-window" id="win_viewCustomer" data-options="title:'查看客戶信息',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 700px; height: 370px; padding: 10px;"></div>
+<div class="easyui-window" id="win_addDetail" data-options="title:'添加用料明细',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 800px; height: 320px; padding: 10px;"></div>
+<div class="easyui-window" id="win_viewDetail" data-options="title:'查看用料明细',closed:true,modal:true,iconCls:'icon-save',cache:false" style="width: 845px; height: 420px; padding: 10px;"></div>
