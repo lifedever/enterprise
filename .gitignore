@@ -10,4 +10,6 @@
 /web/WEB-INF/log
 /web/WEB-INF/lib
 /web/upload
-
+/.classpath
+/.gitignore
+/bin
