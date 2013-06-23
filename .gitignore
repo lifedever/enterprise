@@ -4,8 +4,7 @@
 *.jar
 *.war
 *.ear
-
-
+/.settings
 /build
 /web/WEB-INF/classes
 /web/WEB-INF/log
