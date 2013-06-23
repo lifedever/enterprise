@@ -4,10 +4,10 @@
 *.jar
 *.war
 *.ear
-
-
+/.settings
 /build
 /web/WEB-INF/classes
 /web/WEB-INF/log
 /web/WEB-INF/lib
 /web/upload
+/.classpath
